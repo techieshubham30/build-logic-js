@@ -6,8 +6,18 @@
 // * * * *
 // * * * * *
 
-for(var row=1;row<=5;row++){
-    for(var col=1;col<=row;col++){
-        process.stdout.write("* ");    }
-    console.log("\n");
+
+let row=1;
+let str="";
+
+while(row<=5){
+    let col=1;
+    while(col<=row){
+        str+="* "
+        col++;
+    }
+    str+="\n";
+    row++;
+
 }
+console.log(str);
