@@ -3,7 +3,6 @@
 
 
 const fibonacciSeries=(n)=>{
- let [firstNum,secondNum] = [0,1];
  let fibonacciArr = [0,1];
  for(let i=2;i<n;i++){
    fibonacciArr.push(fibonacciArr[i-1]+fibonacciArr[i-2]);
